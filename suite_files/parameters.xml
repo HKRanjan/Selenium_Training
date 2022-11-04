@@ -1,0 +1,18 @@
+<suite name="java_Test" parallel="tests" thread="2">
+
+    <parameter name ="url" value="https://www.facebook.com"/>
+    <test name="browser1">
+        <parameter name="browsername" value="Chrome"/>
+        <classes>
+            <class name="testNG.parameter"/>
+        </classes>
+    </test>
+    <test name="browser2">
+        <parameter name="browsername" value="Firefox"/>
+        <classes>
+            <class name="testNG.parameter"/>
+
+        </classes>
+    </test>
+
+</suite>

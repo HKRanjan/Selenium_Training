@@ -1,0 +1,21 @@
+<suite name="Test_practice">
+    <test name="Test1">
+        <classes>
+            <class name="testNG.eg1">
+                <methods>
+                    <include name = "additionNum"/>
+                    <exclude name = "multi"/>
+                    <exclude name = "sub"/>
+                </methods>
+
+            </class>
+        </classes>
+    </test>
+    <test name = "test2">
+        <classes>
+            <class name = "testNG.googleTest"/>
+
+
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,15 @@
+<suite name="java_Test" parallel="tests" thread-count="2">
+    <test name="Unit1">
+        <classes>
+            <class name="Omayo.handleWindow"/>
+
+        </classes>
+    </test>
+    <test name = "Unit2">
+        <classes>
+            <class name = "testNG.googleTest"/>
+
+
+        </classes>
+    </test>
+</suite>
